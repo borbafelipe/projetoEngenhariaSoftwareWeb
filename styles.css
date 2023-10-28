@@ -1,0 +1,68 @@
+/* Estilos gerais para a página */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos para o cabeçalho */
+.header {
+    background-color: #0074D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Estilos para os botões no cabeçalho */
+.header .button {
+    background-color: #0074D9;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilo específico para o botão de configurações */
+.header #settings-button {
+    margin-left: 10px;
+}
+
+/* Estilos para a área de conteúdo */
+#content {
+    flex: 1;
+    padding: 10px;
+    overflow: auto;
+    background-color: #F0F0F0; /* Cor de fundo cinza claro */
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #0074D9;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para os botões no rodapé */
+.footer .footer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer .footer-button {
+    flex: 1;
+    background-color: #0074D9;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
