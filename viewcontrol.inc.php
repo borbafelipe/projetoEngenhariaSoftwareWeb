@@ -5,16 +5,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         switch ($buttonLabel) {
             case 'home':
-                echo "[espaço de codigo para chamar dinamicamente algo]";
+                include 'homeview.php'; // Incluir o arquivo homeview.php para a opção 'home'
                 break;
             case 'lista':
-                echo "Lista";
+                include 'listaview.php'; // Incluir o arquivo listaview.php para a opção 'lista'
                 break;
             case 'pesquise':
-                echo " Pesquise";
+                include 'pesquiseview.php'; // Incluir o arquivo pesquiseview.php para a opção 'pesquise'
                 break;
             case 'menu':
-                echo "Menu";
+                include 'menuview.php'; // Incluir o arquivo menuview.php para a opção 'menu'
                 break;
             default:
                 echo "Opção inválida";
@@ -23,6 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "Nenhuma informação do botão recebida";
     }
 } else {
-    echo "Menu";
+    include 'homeview.php';
 }
 ?>
+
