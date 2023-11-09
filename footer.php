@@ -24,10 +24,7 @@
                 <i class="fa-regular fa-rectangle-list"></i> 
                 Lista
             </button>
-            <button class="footer-button" id="button3" data-button="pesquise">
-                <i class="fa-solid fa-magnifying-glass"></i> 
-                Pesquise
-            </button>
+          
             <button class="footer-button" id="button4" data-button="menu">
                 <i class="fa-solid fa-bars"></i> 
                 Menu
