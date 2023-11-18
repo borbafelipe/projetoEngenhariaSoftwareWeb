@@ -1,6 +1,6 @@
 <?php
 
-$host = 'seuhost';
-$db = '';
-$user = 'seuuser';
-$password = 'suapassword';
+$host = 'localhost';
+$db = 'engenhariasoftware';
+$user = 'root';
+$password = '';
