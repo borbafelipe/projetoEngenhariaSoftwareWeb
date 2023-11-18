@@ -1,5 +1,17 @@
 <div id="content">
-    <?php
-    include 'viewcontrol.inc.php';
-    ?>
+<?php
+
+
+ob_start(); 
+
+
+include 'viewcontrol.inc.php';
+
+
+$view_content = ob_get_clean(); 
+
+
+echo $view_content;
+?>
+
 </div>

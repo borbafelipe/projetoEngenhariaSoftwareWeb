@@ -5,8 +5,11 @@
 </head>
 <body>
     <header class="header">
-        <button id="settings-button" class="button">Configurações</button>
-        <button id="profile-button" class="button">Perfil</button>
+    <button id="settings-button" class="button"><i class="fa-solid fa-gear"></i> Configurações</button>
+    <button id="search-button" class="button"><i class="fa-solid fa-magnifying-glass"></i> Busca</button>
+        <button id="profile-button" class="button"><i class="fa-solid fa-user"></i> Perfil</button>
+
+
     </header>
     
     <!-- Pop-up de Configurações -->
