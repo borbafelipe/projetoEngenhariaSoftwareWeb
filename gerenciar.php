@@ -88,6 +88,10 @@ $resultado = $pdo->query($sql);
 <body>
     <h2>Painel de Administração</h2>
 
+    <!-- Botoes fixados no cabeçalho -->
+    <a href="post.php" class="nova-postagem">Nova Postagem</a>
+    <a href="index.php" class="voltar">Voltar para a Index</a>
+
     <?php
     while ($row = $resultado->fetch(PDO::FETCH_ASSOC)) {
         echo '<div class="postagem">';
@@ -107,9 +111,6 @@ $resultado = $pdo->query($sql);
         echo '</div>';
     }
     ?>
-
-    <a href="post.php" class="nova-postagem">Nova Postagem</a>
-    <a href="index.php" class="voltar">Voltar para a Index</a>
 
     <script>
         function editarPostagem(id) {

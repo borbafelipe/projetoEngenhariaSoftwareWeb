@@ -19,16 +19,7 @@
             <button class="footer-button" id="button1" data-button="home">
                 <i class="fa-solid fa-house"></i> 
                 Home
-            </button>
-            <button class="footer-button" id="button2" data-button="lista">
-                <i class="fa-regular fa-rectangle-list"></i> 
-                Lista
-            </button>
 
-            <button class="footer-button" id="button4" data-button="menu">
-                <i class="fa-solid fa-bars"></i> 
-                Menu
-            </button>
 
             <!-- Novo botão "Entrada do Zelador" -->
             <a href="gerenciar.php">

@@ -63,7 +63,7 @@
         $pdo = new PDO("mysql:host=$host;dbname=$db;charset=UTF8", $user, $password);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $stmt = $pdo->query("SELECT * FROM posts");
+        $stmt = $pdo->query("SELECT * FROM posts ORDER BY id DESC");
         $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         echo '<div class="post-container">';
