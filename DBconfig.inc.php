@@ -1,6 +1,6 @@
 <?php
 
 $host = 'localhost';
-$db = 'engenhariasoftware';
+$db = 'turismo';
 $user = 'root';
 $password = '';

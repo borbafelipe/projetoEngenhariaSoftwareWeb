@@ -24,11 +24,19 @@
                 <i class="fa-regular fa-rectangle-list"></i> 
                 Lista
             </button>
-          
+
             <button class="footer-button" id="button4" data-button="menu">
                 <i class="fa-solid fa-bars"></i> 
                 Menu
             </button>
+
+            <!-- Novo botão "Entrada do Zelador" -->
+            <a href="gerenciar.php">
+                <button class="footer-button" id="button5" data-button="zelador">
+                    <i class="fa-solid fa-key"></i> 
+                    Entrada do Zelador
+                </button>
+            </a>
         </div>
     </footer>
 
